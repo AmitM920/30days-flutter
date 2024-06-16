@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui/home_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,14 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-        home: Scaffold(
-      body: Center(
-        child: Text(
-          "hy brooo", 
-          style: TextStyle(color: Colors.red, fontSize: 80.0),
-        ),
-      ),
-    ));
+    return HomePage();
   }
 }
